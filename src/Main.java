@@ -141,6 +141,15 @@ public class Main {
 //        sekwencja3(Array2);
 //        sekwencja3(Array3);
 
+//        TODO 9) 2 tablice 1D róznej długości --- wypisz true jeżeli ich 1 lub ostani element są równe
+        System.out.println("Zadanie 9");
+        int[] tablica1 = {1,3};
+        int[] tablica2 = {2,4,3};
+        if (tablica1[0] == tablica2[0] || tablica1[tablica1.length - 1] == tablica2[tablica2.length - 1] ) {
+            System.out.println(true);
+        }
+//        TODO 10) tablica double o dowolnej długości --> odwróć kolejnść elementów i wypisz
+        System.out.println("Zadanie 10");
 
     }
 }
