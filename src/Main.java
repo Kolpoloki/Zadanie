@@ -16,22 +16,23 @@ public class Main {
             if (ludzie[1][i].equals("Tarnobrzeg")) {
                 System.out.printf("Uczeń %s pochodzi z %s\n",ludzie[0][ludzie1], ludzie[1][i]);
                 ludzie1++;
+            } else {
+                ludzie1++;
             }
         }
 //        TODO 4) Biorąc pod uwagę dowolną tablicę int, ile razy występuje w niej liczba 7
         int[] liczby = {2,7,3,7,1,8,9,7,0,2};
         int count = 0;
-        for (int i = 0; i < liczby.length; i++) {
-            if (liczby[i] == 7) {
-                count += 1;
-            }
-        }
-//        count = 0;
-//        for (int i : liczby) {
-//            if (i == 7) {
+//        for (int i = 0; i < liczby.length; i++) {
+//            if (liczby[i] == 7) {
 //                count += 1;
 //            }
 //        }
+        for (int i : liczby) {
+            if (i == 7) {
+                count += 1;
+            }
+        }
         System.out.printf("Liczba 7 występuje w tabeli %d razy.\n", count);
 //        TODO 5) Wypisz true, gdy w tablicy pojawi się sekwencja kolejnych liczb 1,2,3
         int[] liczby4 = {0,0,0,0,0,0,0,1,2,3};
