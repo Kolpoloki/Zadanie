@@ -23,7 +23,7 @@ public class Main {
 //            if (args[i] == 5) {System.out.println(true);}
 //        }
 //    } else {
-//        for (int i = 0; i < 3; i++) {
+//        for (int i = 0; i < 4; i++) {
 //            if (args[i] == 5) {System.out.println(true);}
 //        }
 //    }
