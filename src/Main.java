@@ -37,6 +37,17 @@ public class Main {
 //        }
 //        System.out.printf("Sekwencja liczb 6-6 lub 6-7 wystepuje w tabeli %d razy\n", count1);
 //    }
+//    static void sekwencja4(double[] args) {
+//        for ( int i = 0; i < args.length / 2; i++) {
+//            double index = args[i];
+//            args[i] = args[args.length - 1 - i];
+//            args[args.length - 1 - i] = index;
+//        }
+//        for (double i:args) {
+//            System.out.print(i + "  ");
+//        }
+//        System.out.println("");
+//    }
     public static void main(String[] args) {
 
 //        TODO 3) Utwórz tablicę przynajmniej 6 nazwisk i miejscowości kolegów z twojej grupy i
@@ -150,6 +161,22 @@ public class Main {
         }
 //        TODO 10) tablica double o dowolnej długości --> odwróć kolejnść elementów i wypisz
         System.out.println("Zadanie 10");
+        double[] doubleTable = {1,2,3,4,5,6,7,8,9,0};
+        for ( int i = 0; i < doubleTable.length / 2; i++) {
+            double index = doubleTable[i];
+            doubleTable[i] = doubleTable[doubleTable.length - 1 - i];
+            doubleTable[doubleTable.length - 1 - i] = index;
+        }
+        for (double i:doubleTable) {
+            System.out.print(i + "  ");
+        }
+        System.out.println("");
+
+//        double[] doubleTable1 = {4,5,6,7,8,9,0,1,2};
+//        double[] doubleTable2 = {2,4,6,8,0,1,3,5,7,9,0};
+//        sekwencja4(doubleTable1);
+//        sekwencja4(doubleTable2);
+
 
     }
 }
